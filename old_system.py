@@ -25,7 +25,7 @@ def run_system_monolith():
         print("4. Analyze Data")
         print("5. Exit")
         
-        opt = input("Select option: ")
+        opt = int(input("Select option: "))                  #Made it an integer input  
         
         if opt == "1":                                       #Added another equal sign
             print("Current Crew List:")
