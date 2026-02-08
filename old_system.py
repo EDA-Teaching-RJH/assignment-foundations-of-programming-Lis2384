@@ -27,13 +27,13 @@ def run_system_monolith():
         
         opt = int(input("Select option: "))                  #Made it an integer input  
         
-        if opt == "1":                                       #Added another equal sign
+        if opt == 1:                                       #Added another equal sign
             print("Current Crew List:")
             
             for i in range(10):
                 print(n[i] + " - " + r[i]) 
                 
-        elif opt == "2":
+        elif opt == 2:                                   #Removed the "" off of every opt as its an integer not a string
             new_name = input("Name: ")
             new_rank = input("Rank: ")
             new_div = input("Division: ")
@@ -42,7 +42,7 @@ def run_system_monolith():
             n.append(new_name)
             print("Crew member added.")
             
-        elif opt == "3":
+        elif opt == 3:
             rem = input("Name to remove: ")
            
             idx = n.index(rem)
@@ -51,7 +51,7 @@ def run_system_monolith():
             d.pop(idx)
             print("Removed.")
             
-        elif opt == "4":
+        elif opt == 4:
             print("Analyzing...")
             count = 0
             
@@ -60,7 +60,7 @@ def run_system_monolith():
                     count = count + 1
             print("High ranking officers: " + count) 
             
-        elif opt == "5":
+        elif opt == 5:
             print("Shutting down.")
             break
             
