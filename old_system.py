@@ -30,7 +30,7 @@ def run_system_monolith():
         if opt == 1:                                       #Added another equal sign
             print("Current Crew List:")
             
-            for i in range(len(n)):                           #changed the range for 4 to len so that opt 2 can run
+            for i in range(min(len(n), len(r))):                           #changed the range so that both n and r have lens
                 print(n[i] + " - " + r[i]) 
                 
         elif opt == 2:                                   #Removed the "" off of every opt as its an integer not a string
