@@ -35,34 +35,37 @@ def main():
         print("9")
         print("10")
 
+        option = input("Choose an option: ")
+    
 
 
-if  == 1:
-    1()
 
-elif  == 2:
-    2()
+        if option == 1:
+            1()
 
-elif  == 3:
-    3()
+        elif option == 2:
+            2()
 
-elif == 4:
-    4()
+        elif option == 3:
+            3()
 
-elif == 5:
-    5()
+        elif option == 4:
+            4()
 
-elif == 6:
-    6()
+        elif option == 5:
+            5()
 
-elif == 7:
-    7()
+        elif option == 6:
+            6()
 
-elif == 8:
-    8()
+        elif option == 7:
+            7()
 
-elif == 9:
-    9()
+        elif option == 8:
+            8()
 
-elif ==10:
-    10()
+        elif option == 9:
+            9()
+
+        elif option == 10:
+            10()
