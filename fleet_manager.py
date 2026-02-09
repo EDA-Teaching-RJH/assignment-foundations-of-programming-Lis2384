@@ -19,6 +19,7 @@ def main():
             student[0] = student_name
 
         print("=== Menu ===")
+        print("Logged in: " + student[0])
         print("1) Database")
         print("2) Add member")
         print("3) Remove member")
@@ -33,9 +34,4 @@ def main():
         option = input("Choose an option: ").strip()
         return option
     
-    while True:
-        option = display_menu()
-
-        if option == "10":
-            break
 main()
