@@ -1,11 +1,14 @@
 def main():
 
-    names = []
-    ranks = []
-    diviisions = []
-    ids = []
+    def init_database():
+        names = ["janeway", "Sisko", "Spock", "Uhura", "Scotty"]
+        ranks = ["Captain", "Captain", "Commander", "Lieutenant", "Lieutenant Commander"]
+        divisions = ["command", "Command", "Science", "Operations", "Engineering"]
+        ids = [1, 2, 3, 4, 5]
 
-    
+        return names, ranks, divisions, ids
+
+
     def 1():
 
     def 2():
