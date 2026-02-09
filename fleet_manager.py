@@ -42,6 +42,11 @@ def main():
 
         name = input("Name: ").strip().title()
 
+        while True:
+            rank = input("Rank: ").strip().title()
+
+        
+
 
         names.append(name)
 
