@@ -39,6 +39,11 @@ def main():
     def add_member(names, ranks, divs, id):
 
         valid_ranks = ["Ensign", "Lieutenant", "Lieutenant Junior Grade", "Lieutenant Commander", "Commander", "Captain", "Admiral"]
-        
+
+        name = input("Name: ").strip().title()
+
+
+        names.append(name)
+
     
 main()
