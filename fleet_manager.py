@@ -22,5 +22,13 @@ def main():
         print("9) Count officers")
         print("10) Exit")
 
-        option = input("Choose an option: ").strip
+        option = input("Choose an option: ").strip()
         return option
+    
+    names, ranks, divs, id = init_database()
+
+    while True:
+        option = display_menu()
+        if option == "10":
+            break
+main()
