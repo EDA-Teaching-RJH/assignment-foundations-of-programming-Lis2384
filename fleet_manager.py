@@ -1,6 +1,11 @@
 def main():
 
+    names = []
+    ranks = []
+    diviisions = []
+    ids = []
 
+    
     def 1():
 
     def 2():
