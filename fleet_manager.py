@@ -45,6 +45,14 @@ def main():
         while True:
             rank = input("Rank: ").strip().title()
 
+            if rank in valid_ranks:
+                break
+
+            else:
+                print("Invalid rank")
+                print("Valid rank:" + valid_ranks)
+                
+
         
 
 
