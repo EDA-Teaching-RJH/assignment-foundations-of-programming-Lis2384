@@ -10,6 +10,11 @@ def main():
     
     def display_menu():
 
+        student_name = input("Full name: ").strip()
+
+        if student_name:
+            student[0] = student_name
+
         print("=== Menu ===")
         print("1) Database")
         print("2) Add member")
@@ -25,10 +30,4 @@ def main():
         option = input("Choose an option: ").strip()
         return option
     
-    names, ranks, divs, id = init_database()
-
-    while True:
-        option = display_menu()
-        if option == "10":
-            break
 main()
