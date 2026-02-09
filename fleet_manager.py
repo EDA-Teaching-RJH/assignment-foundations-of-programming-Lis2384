@@ -1,5 +1,8 @@
 def main():
 
+    student = [""]
+
+
     def init_database():
         names = ["Janeway", "Sisko", "Spock", "Uhura", "Scotty"]
         ranks = ["Captain", "Captain", "Commander", "Lieutenant", "Lieutenant Commander"]
@@ -30,4 +33,9 @@ def main():
         option = input("Choose an option: ").strip()
         return option
     
+    while True:
+        option = display_menu()
+
+        if option == "10":
+            break
 main()
