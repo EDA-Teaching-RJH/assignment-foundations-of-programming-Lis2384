@@ -11,6 +11,7 @@ def main():
 
         return names, ranks, divs, id
     
+    
     def display_menu():
 
         student_name = input("Full name: ").strip()
@@ -33,5 +34,11 @@ def main():
 
         option = input("Choose an option: ").strip()
         return option
+    
+
+    def add_member(names, ranks, divs, id):
+
+        valid_ranks = ["Ensign", "Lieutenant", "Lieutenant Junior Grade", "Lieutenant Commander", "Commander", "Captain", "Admiral"]
+        
     
 main()
