@@ -21,3 +21,6 @@ def main():
         print("8) Calculate payroll")
         print("9) Count officers")
         print("10) Exit")
+
+        option = input("Choose an option: ").strip
+        return option
