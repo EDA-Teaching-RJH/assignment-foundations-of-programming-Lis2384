@@ -51,12 +51,14 @@ def main():
             else:
                 print("Invalid rank")
                 print("Valid rank:" + valid_ranks)
-                
 
-        
+
+        while True:
+            div = input("Division: ").strip().title()
 
 
         names.append(name)
+        ranks.append(rank)
 
     
 main()
