@@ -165,7 +165,9 @@ def main():
         if found == False:
             print("No crew in that divion")
 
+    def calculate_payroll(ranks):
 
+        total = 0
 
         
 
