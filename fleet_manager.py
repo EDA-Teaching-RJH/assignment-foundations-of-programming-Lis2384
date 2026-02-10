@@ -186,10 +186,11 @@ def main():
             elif rank == "Lieutenant Junior Grade":
                 total = total + 300
             
-            else rank == "Ensign":
+            elif rank == "Ensign":
                 total = total + 200
 
-            else total + total + 0
+            else:
+                total + total + 0
 
         return total
 
