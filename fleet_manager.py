@@ -68,9 +68,8 @@ def main():
 
             else:
                 break
-
-
-
+        
+    
         names.append(name)
         ranks.append(rank)
         divs.append(div)
@@ -78,7 +77,27 @@ def main():
 
         print("Member added")
     
+
+    def remove_member(names, ranks, divs, id):
+
+        remove = input("whats the ID you want to remove: ").strip()
+        
+
+
+
+
+
+
+
+
+
+
     names, ranks, divs, id = init_database()
+
+
+
+
+
 
     student[0] = input("Full name: ").strip()
 
