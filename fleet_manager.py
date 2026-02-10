@@ -205,13 +205,7 @@ def main():
 
 
 
-
-
-
     names, ranks, divs, id = init_database()
-
-
-
 
 
 
