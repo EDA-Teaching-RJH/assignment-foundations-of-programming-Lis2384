@@ -62,11 +62,26 @@ def main():
             else:
                 print("Invalid division")
                 print("Valid division: " + valid_divs)
+        
+
+        while True:
+            new_id = input("ID: ").strip()
+
+            if new_id in id:
+                print("ID exists, choose another")
+                continue
+
+            else:
+                break
+
 
 
         names.append(name)
         ranks.append(rank)
         divs.append(div)
+        id.append(new_id)
+
+        print("Member added")
 
     
 main()
