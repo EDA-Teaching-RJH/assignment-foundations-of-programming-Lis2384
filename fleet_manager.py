@@ -17,16 +17,15 @@ def main():
 
         print("=== Menu ===")
         print("Logged in: " + student[0])
-        print("1) Database")
-        print("2) Add member")
-        print("3) Remove member")
-        print("4) Update rank")
-        print("5) Display roster")
-        print("6) Search crew")
-        print("7) Filter by division")
-        print("8) Calculate payroll")
-        print("9) Count officers")
-        print("10) Exit")
+        print("1) Add member")
+        print("2) Remove member")
+        print("3) Update rank")
+        print("4) Display roster")
+        print("5) Search crew")
+        print("6) Filter by division")
+        print("7) Calculate payroll")
+        print("8) Count officers")
+        print("9) Exit")
 
         option = input("Choose an option: ").strip()
         return option
@@ -46,7 +45,7 @@ def main():
 
             else:
                 print("Invalid rank")
-                print("Valid rank:" + valid_ranks)
+                print("Valid rank:", valid_ranks)
 
 
         while True:
@@ -57,7 +56,7 @@ def main():
 
             else:
                 print("Invalid division")
-                print("Valid division: " + valid_divs)
+                print("Valid division: ", valid_divs)
         
 
         while True:
@@ -87,13 +86,9 @@ def main():
         option = display_menu()
 
         if option == "1":
-            names, ranks, divs, id = init_database()
-            print("Database loaded")
-        
-        elif option == "2":
             add_member(names, ranks, divs, id)
         
-        elif option == "10":
+        elif option == "9":
             print("Exiting")
             break
             
