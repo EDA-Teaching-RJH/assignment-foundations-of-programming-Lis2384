@@ -141,7 +141,20 @@ def main():
     def filter_by_division(names, divs):
 
         choice = input("Division: ").strip().title()
+
+        if choice == "Command":
+            target = "Command"
         
+        elif choice == "Operations":
+            target = "Operations"
+
+        elif choice == "Sciences":
+            target = "Sciences"
+        
+        else:
+            print("Invalid division")
+            return
+
 
 
         
