@@ -97,8 +97,7 @@ def main():
     
     def update_rank(names, ranks, id):
 
-        
-
+        valid_ranks = ["Ensign", "Lieutenant", "Lieutenant Junior Grade", "Commander", "Captain", "Admiral"]
 
 
 
