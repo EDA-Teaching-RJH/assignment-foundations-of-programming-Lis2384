@@ -95,7 +95,9 @@ def main():
         else:
             print("ID not found")
     
+    def update_rank(names, ranks, id):
 
+        
 
 
 
