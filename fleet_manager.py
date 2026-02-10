@@ -124,7 +124,7 @@ def main():
         for roster in range(min(len(names), len(ranks), len(divs), len(id))):
             print(id[roster] + " " + names[roster] + " " + ranks[roster] + " " + divs[roster])
 
-
+    def search_crew(names, ranks, divs, id):
 
 
 
