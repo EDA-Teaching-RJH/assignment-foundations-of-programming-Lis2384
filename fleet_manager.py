@@ -92,7 +92,7 @@ def main():
 
             print("Removed member")
         
-        else
+        else:
             print("ID not found")
     
 
@@ -120,7 +120,7 @@ def main():
         if option == "1":
             add_member(names, ranks, divs, id)
         
-        elif option == "2"
+        elif option == "2":
             remove_member(names, ranks, divs, id)
         
         elif option == "9":
