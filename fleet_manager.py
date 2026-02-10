@@ -13,11 +13,7 @@ def main():
     
     
     def display_menu():
-
-        student_name = input("Full name: ").strip()
-
-        if student_name:
-            student[0] = student_name
+        
 
         print("=== Menu ===")
         print("Logged in: " + student[0])
@@ -82,6 +78,10 @@ def main():
         id.append(new_id)
 
         print("Member added")
+    
+    names, ranks, divs, id = init_database()
+
+    student[0] = input("Full name: ").strip()
 
     while True:
         option = display_menu()
@@ -93,8 +93,10 @@ def main():
         elif option == "2":
             add_member(names, ranks, divs, id)
         
-        else:
+        elif option == "10":
+            print("Exiting")
             break
+            
 
 
 
