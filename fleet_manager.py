@@ -120,6 +120,9 @@ def main():
         if option == "1":
             add_member(names, ranks, divs, id)
         
+        elif option == "2"
+            remove_member(names, ranks, divs, id)
+        
         elif option == "9":
             print("Exiting")
             break
