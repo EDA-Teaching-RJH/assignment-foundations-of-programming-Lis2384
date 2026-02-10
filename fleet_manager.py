@@ -169,6 +169,30 @@ def main():
 
         total = 0
 
+        for rank in ranks
+
+            if rank == "Captain":
+                total = total + 1000
+            
+            elif rank == "Commander":
+                total = total + 800
+            
+            elif rank == "Lieutenant Commander":
+                total = total + 600
+            
+            elif rank == "Lieutenant":
+                total = total + 400
+
+            elif rank == "Lieutenant Junior Grade":
+                total = total + 300
+            
+            else rank == "Ensign":
+                total = total + 200
+
+            else total + total + 0
+
+        return total
+
         
 
 
