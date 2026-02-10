@@ -200,6 +200,9 @@ def main():
         
         elif option == "5":
             search_crew(names, ranks, divs, id)
+
+        elif option == "6":
+            filter_by_division(names, divs)
         
         elif option == "9":
             print("Exiting")
