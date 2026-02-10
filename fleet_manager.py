@@ -128,11 +128,14 @@ def main():
 
         term = input("Search term: ").strip().lower()
 
+        found = False
+
         for search in range(len(names)):
             if term in names[search].lower():
                 print(id[search] + " " + names[search] + " " + ranks[search] + " " + divs[search])
+                found = True
 
-            else:
+        if found == False:
                 print("No matches")
 
 
@@ -168,6 +171,9 @@ def main():
         
         elif option == "4":
             display_roster(names, ranks, divs, id)
+        
+        elif option == "5":
+            search_crew(names, ranks, divs, id)
         
         elif option == "9":
             print("Exiting")
