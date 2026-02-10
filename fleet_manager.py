@@ -29,7 +29,6 @@ def main():
 
         option = input("Choose an option: ").strip()
         return option
-    
 
     def add_member(names, ranks, divs, id):
 
@@ -77,7 +76,6 @@ def main():
 
         print("Member added")
     
-
     def remove_member(names, ranks, divs, id):
 
         remove = input("whats the ID you want to remove: ").strip()
@@ -119,7 +117,10 @@ def main():
         else:
             print("ID not found")
 
-                
+    def display_roster(names, ranks, divs, id):
+
+        print("=== Roster ===")
+        
 
 
         
