@@ -126,6 +126,16 @@ def main():
 
     def search_crew(names, ranks, divs, id):
 
+        term = input("Search term: ").strip().lower()
+
+        for search in range(len(names)):
+            if term in names[search].lower():
+                print(id[search] + " " + names[search] + " " + ranks[search] + " " + divs[search])
+
+            else:
+                print("No matches")
+
+
 
 
         
