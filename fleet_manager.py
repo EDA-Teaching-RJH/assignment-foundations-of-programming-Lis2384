@@ -233,6 +233,8 @@ def main():
         
         elif option == "7":
             calculate_payroll(ranks)
+            total = calculate_payroll(ranks)
+            print("Total payroll cost: " + str(total))
         
         elif option == "9":
             print("Exiting")
