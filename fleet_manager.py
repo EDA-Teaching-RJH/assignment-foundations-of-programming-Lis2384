@@ -138,7 +138,10 @@ def main():
         if found == False:
                 print("No matches")
 
+    def filter_by_division(names, divs):
 
+        choice = input("Division: ").strip().title()
+        
 
 
         
