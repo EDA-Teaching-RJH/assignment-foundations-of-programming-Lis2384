@@ -39,7 +39,7 @@ def main():
     def add_member(names, ranks, divs, id):
 
         valid_ranks = ["Ensign", "Lieutenant", "Lieutenant Junior Grade", "Lieutenant Commander", "Commander", "Captain", "Admiral"]
-
+        valid_divs = ["Command", "Sciences", "Operations"]
         name = input("Name: ").strip().title()
 
         while True:
@@ -56,9 +56,17 @@ def main():
         while True:
             div = input("Division: ").strip().title()
 
+            if div in valid_divs:
+                break
+
+            else:
+                print("Invalid division")
+                print("Valid division: " + valid_divs)
+
 
         names.append(name)
         ranks.append(rank)
+        divs.append(div)
 
     
 main()
