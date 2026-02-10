@@ -82,6 +82,19 @@ def main():
 
         remove = input("whats the ID you want to remove: ").strip()
         
+        if remove in id:
+            remove_id = id.index(remove)
+
+            names.pop(remove_id)
+            ranks.pop(remove_id)
+            divs.pop(remove_id)
+            id.pop(remove_id)
+
+            print("Removed member")
+        
+        else
+            print("ID not found")
+    
 
 
 
