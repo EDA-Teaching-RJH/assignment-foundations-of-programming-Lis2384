@@ -120,7 +120,12 @@ def main():
     def display_roster(names, ranks, divs, id):
 
         print("=== Roster ===")
-        
+
+        for roster in range(min(len(names), len(ranks), len(divs), len(id))):
+            print(id[roster] + " " + names[roster] + " " + ranks[roster] + " " + divs[roster])
+
+
+
 
 
         
@@ -150,6 +155,9 @@ def main():
         
         elif option == "3":
             update_rank(names, ranks, id)
+        
+        elif option == "4":
+            display_roster(names, ranks, divs, id)
         
         elif option == "9":
             print("Exiting")
