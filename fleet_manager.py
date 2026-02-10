@@ -98,7 +98,7 @@ def main():
     def update_rank(names, ranks, id):
 
         valid_ranks = ["Ensign", "Lieutenant", "Lieutenant Junior Grade", "Commander", "Captain", "Admiral"]
-        print("Valid ranks are: " + valid_ranks)
+        print("Valid ranks are: " + ", " .join(valid_ranks))
 
         mem_id = input("ID to update: ").strip()
 
