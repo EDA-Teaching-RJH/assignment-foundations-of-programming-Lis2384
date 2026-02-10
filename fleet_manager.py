@@ -169,7 +169,7 @@ def main():
 
         total = 0
 
-        for rank in ranks
+        for rank in ranks:
 
             if rank == "Captain":
                 total = total + 1000
