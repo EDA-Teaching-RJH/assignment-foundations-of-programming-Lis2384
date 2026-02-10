@@ -194,6 +194,7 @@ def main():
 
         return total
 
+    def count_officers(ranks):
         
 
 
