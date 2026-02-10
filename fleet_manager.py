@@ -83,5 +83,19 @@ def main():
 
         print("Member added")
 
-    
+    while True:
+        option = display_menu()
+
+        if option == "1":
+            names, ranks, divs, id = init_database()
+            print("Database loaded")
+        
+        elif option == "2":
+            add_member(names, ranks, divs, id)
+        
+        else:
+            break
+
+
+
 main()
