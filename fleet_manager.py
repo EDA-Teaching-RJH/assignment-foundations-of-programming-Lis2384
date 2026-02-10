@@ -154,6 +154,16 @@ def main():
         else:
             print("Invalid division")
             return
+        
+        found = False
+
+        for division in range(len(names)):
+            if divs[division] == target:
+                print(names[division])
+                found = True
+        
+        if found == False:
+            print("No crew in that divion")
 
 
 
