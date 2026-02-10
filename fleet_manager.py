@@ -243,6 +243,9 @@ def main():
             total = calculate_payroll(ranks)
             print("Total payroll cost: " + str(total))
         
+        elif option == "8":
+            count_officers(ranks)
+        
         elif option == "9":
             print("Exiting")
             break
