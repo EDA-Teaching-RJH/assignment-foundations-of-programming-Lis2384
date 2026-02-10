@@ -102,7 +102,26 @@ def main():
 
         mem_id = input("ID to update: ").strip()
 
+        if mem_id in id:
+            up_id = id.index(mem_id)
+
+            while True:
+                new_rank = input("New rank: ").strip().title()
+
+                if new_rank in valid_ranks:
+                    ranks[up_id] = new_rank
+                    print("Rank updated for " + names[up_id])
+                    break
+
+                else:
+                    print("Invalid rank")
         
+        else:
+            print("ID not found")
+
+                
+
+
         
 
 
