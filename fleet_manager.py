@@ -230,6 +230,9 @@ def main():
         elif option == "6":
             filter_by_division(names, divs)
         
+        elif option == "7":
+            calculate_payroll(ranks)
+        
         elif option == "9":
             print("Exiting")
             break
